@@ -2,7 +2,15 @@ def max_value(numbers):
     """ This function returns the largest number
         in the list.
     """
-    pass
+    While num != 0:
+        sum += num
+        if sum >= 1000:
+            break
+
+        num = int(input('Please enter a number => '))
+
+    return sum
+```
 
 
 if __name__ == "__main__":
